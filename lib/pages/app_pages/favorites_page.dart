@@ -8,11 +8,16 @@ import 'package:flutter_tech_task/presentation/widgets/common_widgets/common_bod
 import 'package:provider/provider.dart';
 
 /// Favorilenen kitapların gösterimini sağlayan sayfa.
-class FavoritesPage extends StatelessWidget {
+class FavoritesPage extends StatefulWidget {
   /// Sayfaya benzersiz key ataması.
 
   const FavoritesPage({super.key});
 
+  @override
+  State<FavoritesPage> createState() => _FavoritesPageState();
+}
+
+class _FavoritesPageState extends State<FavoritesPage> {
   @override
   Widget build(BuildContext context) {
     final favoriteProvider = Provider.of<FavoriteProvider>(context);

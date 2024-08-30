@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_tech_task/presentation/widgets/common_widgets/app_colors.dart';
 import 'package:hive/hive.dart';
@@ -11,7 +13,6 @@ ThemeData light = ThemeData(
 );
 
 /// Karanlık tema için [ThemeData] entegrasyonu.
-
 ThemeData dark = ThemeData(
   brightness: Brightness.dark,
   primarySwatch: darkColor,
@@ -26,13 +27,13 @@ class ThemeProvider extends ChangeNotifier {
   ThemeProvider(this._box) {
     _loadFromHive();
   }
+
   final Box<dynamic> _box;
   static const String _key = 'theme';
 
   bool _darkTheme = true;
 
   /// Şu anki tema bilgisini döndürme.
-
   bool get darkTheme => _darkTheme;
 
   /// Uygulama temasını değiştirme ve [Hive] box içerisine yeni temayı kaydetme.
@@ -48,7 +49,13 @@ class ThemeProvider extends ChangeNotifier {
   ///
   /// İşlem sonrası notifyListener ile state güncellemesini sağlama.
   Future<void> _loadFromHive() async {
-    _darkTheme = _box.get(_key, defaultValue: true) as bool;
+    final savedTheme = _box.get(_key) as bool?;
+    if (savedTheme != null) {
+      _darkTheme = savedTheme;
+    } else {
+      _darkTheme =
+          PlatformDispatcher.instance.platformBrightness == Brightness.dark;
+    }
     notifyListeners();
   }
 

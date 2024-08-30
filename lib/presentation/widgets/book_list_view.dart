@@ -34,7 +34,7 @@ class BookListView extends StatelessWidget {
             ),)
           : ListView.builder(
               itemCount: books.length,
-              itemBuilder: (context, index) {
+              itemBuilder: (_, index) {
                 final book = books[index];
                 return ListTile(
                   title: AppTextStyles.bookListTitleText(

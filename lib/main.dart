@@ -18,7 +18,7 @@ Future<void> main() async {
   await Hive.initFlutter();
   Hive.registerAdapter(BookModelAdapter());
   await Hive.openBox<BookModel>('books');
-  final languagesBox = await Hive.openBox('languages');
+  final languagesBox = await Hive.openBox<dynamic>('languages');
   final themeBox = await Hive.openBox<bool>('theme');
   final favoritesBox = await Hive.openBox<BookModel>('favorites');
   await NotificationService().init();
