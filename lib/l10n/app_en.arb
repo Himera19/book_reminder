@@ -1,0 +1,18 @@
+{
+  "navbarBook": "Books",
+  "navbarFavorite": "Favorites",
+  "appBarBook": "Book List",
+  "appBarFavorite": "My Favorites",
+  "appBarDetail": "Book Details",
+  "detailName": "Book Name",
+  "detailPublisher": "Publisher",
+  "detailYear": "Year of Publication",
+  "detailPage": "Page Number",
+  "detailISBN": "ISBN",
+  "selectLanguage": "Select Language",
+  "searchBook": "Search Book",
+  "notificationTitle": "Book Reminder",
+  "notificationContent": "Reminder for this book:",
+  "booksEmpty": "No Books!"
+
+}

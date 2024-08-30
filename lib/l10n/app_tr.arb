@@ -1,0 +1,17 @@
+{
+  "navbarBook": "Kitaplar",
+  "navbarFavorite": "Favoriler",
+  "appBarBook": "Kitap Listesi",
+  "appBarFavorite": "Favorilerim",
+  "appBarDetail": "Kitap Detayları",
+  "detailName": "Kitap Adı",
+  "detailPublisher": "Yayımcı",
+  "detailYear": "Basım Yılı",
+  "detailPage": "Sayfa Sayısı",
+  "detailISBN": "ISBN",
+  "selectLanguage": "Dil Seç",
+  "searchBook": "Kitap Ara",
+  "notificationTitle": "Kitap Hatırlatıcı",
+  "notificationContent": "Şu kitap için hatırlatma:",
+  "booksEmpty": "Kitap Yok!"
+}
