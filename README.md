@@ -7,8 +7,7 @@
 ## GIF Demo
 
 <img src="https://github.com/Himera19/flutter_book_reminder/blob/master/app_preview.gif" height="450">
----
-
+ 
 ## Özellikler
 
 - **Kitap Favorileme**: Kullanıcılar, istedikleri kitapları favorilerine ekleyebilir.
