@@ -6,7 +6,7 @@
 
 ## Video Demo
 
-![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://github.com/Himera19/flutter_book_reminder/blob/master/app_preview.mp4))
+![](https://github.com/Himera19/flutter_book_reminder/blob/master/app_preview.gif)
 
 ---
 
