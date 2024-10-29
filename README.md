@@ -1,4 +1,4 @@
-# flutter_tech_task
+# flutter_book_reminder
 
 Kitap Favori ve Hatırlatıcı Uygulaması
 
@@ -10,6 +10,14 @@ Yerel Depolama: API üzerinden kitaplara erişildikten sonra, kitaplar Hive ile 
 Favori Kitaplar: Favorilere eklenen kitaplar, internet bağlantısı olmadan da erişilebilir ve tamamen yerel olarak saklanır.
 Tema Seçeneği: Uygulama, karanlık ve aydınlık olmak üzere iki farklı tema sunar.
 Dil Desteği: Uygulama, hem İngilizce hem de Türkçe dillerini destekler.
+
+Kullanılan Başlıca Eklentiler
+
+Hive (Çekilen kitap verilerinin yerelde depolanması)
+Provider (Uygulama bütünlüğünü korumak ve durum yönetimini sağlamak)
+Flutter Local Notification (Hatırlatıcı eklenen kitaptan bildirim almak)
+HTTP (API' ye sorgu atmak ve dönen sorguyu işlemek)
+
 
 Kurulum ve Kullanım
 
