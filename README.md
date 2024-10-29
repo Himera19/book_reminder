@@ -4,9 +4,10 @@
 
 ---
 
-## Video Demo
+## GIF Demo
 
-![](https://github.com/Himera19/flutter_book_reminder/blob/master/app_preview.gif)
+<img src="https://github.com/Himera19/flutter_book_reminder/blob/master/app_preview.gif" height="275">
+ 
 
 ---
 
