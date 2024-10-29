@@ -61,7 +61,7 @@ class MyApp extends StatelessWidget {
             Locale('en', 'US'),
           ],
           locale: languageProvider.currentLocale,
-          title: 'Flutter Tech Task',
+          title: 'Flutter Book Reminder',
           theme: context.watch<ThemeProvider>().darkTheme ? dark : light,
           home: const Navbar(),
         );
