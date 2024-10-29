@@ -6,8 +6,7 @@
 
 ## GIF Demo
 
-![Uygulama Önizlemesi](https://github.com/Himera19/flutter_book_reminder/blob/master/app_preview.gif)
-
+<img src="https://github.com/Himera19/flutter_book_reminder/blob/master/app_preview.gif" height="450">
 ---
 
 ## Özellikler
