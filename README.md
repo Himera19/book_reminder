@@ -4,7 +4,7 @@
 
 ---
 
-![](https://github.com/Himera19/flutter_book_reminder/blob/master/app_preview.mp4)
+[Video Demo](https://github.com/Himera19/flutter_book_reminder/blob/master/app_preview.mp4)
 
 ---
 
