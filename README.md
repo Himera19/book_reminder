@@ -1,6 +1,6 @@
 # Flutter Book Reminder
 
-**Kitap Favori ve Hatırlatıcı Uygulaması**
+**Book Favorite and Reminder Application**
 
 ---
 
@@ -8,40 +8,40 @@
 
 <img src="https://github.com/Himera19/flutter_book_reminder/blob/master/app_preview.gif" height="450">
  
-## Özellikler
+## Features
 
-- **Kitap Favorileme**: Kullanıcılar, istedikleri kitapları favorilerine ekleyebilir.
-- **Kitap Filtreleme**: Kullanıcılar, kitapları aratarak bulabilir.
-- **Günlük Hatırlatmalar**: Kullanıcılar, kitapları için günlük hatırlatmalar oluşturabilir.
-- **Yerel Depolama**: API üzerinden erişilen kitaplar, Hive ile yerel olarak saklanır, böylece internet bağlantısına ihtiyaç duymadan erişilebilir.
-- **Favori Kitaplar**: Favorilere eklenen kitaplar, internet bağlantısı olmadan da erişilebilir ve tamamen yerel olarak depolanır.
-- **Tema Seçeneği**: Uygulama, karanlık ve aydınlık olmak üzere iki farklı tema sunar.
-- **Dil Desteği**: Uygulama, İngilizce ve Türkçe dillerini destekler.
-- **Birim Testi**: Uygulamanın güvenilirliğini artırmak için API sorgu sisteminin test edilmesini sağlar.
+- **Book Favoriting**: Users can add their desired books to their favorites.
+- **Book Filtering**: Users can search and find books easily.
+- **Daily Reminders**: Users can set daily reminders for their books.
+- **Local Storage**: Books fetched from the API are stored locally with Hive, allowing access without the need for an internet connection.
+- **Favorite Books**: Books added to favorites are accessible offline and stored completely locally.
+- **Theme Options**: The app offers two themes: dark and light.
+- **Language Support**: The app supports both English and Turkish languages.
+- **Unit Testing**: The app includes tests for the API query system to ensure reliability.
 
-## Kullanılan Başlıca Eklentiler
+## Key Dependencies
 
-- **Hive**: Kitap verilerini ve kullanıcı tercihlerini yerel olarak saklamak.
-- **Provider**: Uygulama bütünlüğünü korumak ve durum yönetimini sağlamak.
-- **Flutter Local Notification**: Hatırlatıcılar için bildirimler sağlamak.
-- **Flutter Localizations**: İngilizce ve Türkçe dil desteği.
-- **HTTP**: API'ye sorgu atmak ve dönen sonuçları işlemek.
-- **Mockito**: API sorgularını test etmek için kullanılır.
-
----
-
-## Kullanım
-
-1. **API Erişimi**: Uygulama, başlangıçta kitap bilgilerini API üzerinden alır.
-2. **Yerel Depolama**: Erişilen kitaplar Hive kutularına kaydedilir, böylece daha sonrasında internet bağlantısına ihtiyaç duymadan erişilebilir.
-3. **Kitap Detayı**: Seçilen kitabın temel bilgileri görüntülenir ve kullanıcı kitabı favorilerine ekleyebilir.
-4. **Favoriler**: Kullanıcılar, favori kitaplarını yerel olarak görüntüleyebilirler.
-5. **Hatırlatmalar**: Günlük hatırlatmalar ayarlanabilir ve bu hatırlatmalar yerel olarak saklanır.
-6. **Tema ve Dil Seçimi**: Kullanıcılar, tercih ettikleri temayı ve dili seçebilirler.
-7. **Filtreleme**: Kullanıcı, aradığı kitabı bulabilir.
+- **Hive**: Stores book data and user preferences locally.
+- **Provider**: Maintains app integrity and manages state.
+- **Flutter Local Notification**: Provides notifications for reminders.
+- **Flutter Localizations**: Supports both English and Turkish languages.
+- **HTTP**: Sends API requests and processes the returned results.
+- **Mockito**: Used for testing API queries.
 
 ---
 
-## Lisans
+## Usage
 
-Bu proje MIT Lisansı altında lisanslanmıştır.
+1. **API Access**: The app initially fetches book information from an API.
+2. **Local Storage**: Fetched books are saved to Hive boxes, allowing offline access.
+3. **Book Details**: Basic information of the selected book is displayed, and the user can add the book to their favorites.
+4. **Favorites**: Users can view their favorite books locally.
+5. **Reminders**: Daily reminders can be set, and they are saved locally.
+6. **Theme and Language Selection**: Users can choose their preferred theme and language.
+7. **Filtering**: Users can search for the book they are looking for.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
