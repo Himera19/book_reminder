@@ -29,6 +29,12 @@
 - **Mockito**: Used for testing API queries.
 
 ---
+## Setup
+
+1. Run ```flutter gen-l10n``` for initialize localizations.
+2. Run ```flutter run``` for run app.
+
+---
 
 ## Usage
 
