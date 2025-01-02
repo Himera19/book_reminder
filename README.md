@@ -17,6 +17,7 @@
 - **Favorite Books**: Books added to favorites are accessible offline and stored completely locally.
 - **Theme Options**: The app offers two themes: dark and light.
 - **Language Support**: The app supports both English and Turkish languages.
+- **Responsive UI**: The app supports different screen sizes for mobile phones.
 - **Unit Testing**: The app includes tests for the API query system to ensure reliability.
 
 ## Key Dependencies
@@ -25,6 +26,7 @@
 - **Provider**: Maintains app integrity and manages state.
 - **Flutter Local Notification**: Provides notifications for reminders.
 - **Flutter Localizations**: Supports both English and Turkish languages.
+- **Screen Util**: Supports different screen sizes for mobile phones.
 - **HTTP**: Sends API requests and processes the returned results.
 - **Mockito**: Used for testing API queries.
 
