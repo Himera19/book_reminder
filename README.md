@@ -31,12 +31,16 @@
 - **Mockito**: Used for testing API queries.
 
 ---
+
+## Requirements
+
+- **Dart 3.5.3**
+- **Flutter 3.24.3**
+
 ## Setup
 
 1. Run ```flutter gen-l10n``` for initialize localizations.
 2. Run ```flutter run``` for run app.
-
----
 
 ## Usage
 
