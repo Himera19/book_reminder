@@ -1,6 +1,6 @@
-# Flutter Book Reminder
+# Book Reminder
 
-**Book Favorite and Reminder Application**
+**A Book Favorites and Reminder Application Made With Flutter**
 
 ---
 
