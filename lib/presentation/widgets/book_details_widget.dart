@@ -1,7 +1,7 @@
+import 'package:book_reminder/pages/app_pages/book_detail_page.dart';
+import 'package:book_reminder/presentation/widgets/common_widgets/common_text.dart';
 import 'package:flutter/cupertino.dart';
-
-import 'package:flutter_tech_task/pages/app_pages/book_detail_page.dart';
-import 'package:flutter_tech_task/presentation/widgets/common_widgets/common_text.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 /// [BookDetailPage] sayfası üzerinden sergilenen içeriklerin tasarımı.
 class BookDetails extends StatelessWidget {
@@ -18,7 +18,7 @@ class BookDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(10),
+      padding: EdgeInsets.all(10.r),
       child: Text.rich(
         TextSpan(
           children: [

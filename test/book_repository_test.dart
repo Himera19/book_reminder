@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:flutter_tech_task/data/constants.dart';
-import 'package:flutter_tech_task/data/repositories/book_repository.dart';
-import 'package:flutter_tech_task/models/book_model.dart';
+import 'package:book_reminder/data/constants.dart';
+import 'package:book_reminder/data/repositories/book_repository.dart';
+import 'package:book_reminder/models/book_model.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';

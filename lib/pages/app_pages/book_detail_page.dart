@@ -1,10 +1,10 @@
+import 'package:book_reminder/models/book_model.dart';
+import 'package:book_reminder/presentation/providers/favorite_provider.dart';
+import 'package:book_reminder/presentation/widgets/book_details_widget.dart'
+    show BookDetails;
+import 'package:book_reminder/presentation/widgets/common_widgets/common_body.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutter_tech_task/models/book_model.dart';
-import 'package:flutter_tech_task/presentation/providers/favorite_provider.dart';
-import 'package:flutter_tech_task/presentation/widgets/book_details_widget.dart'
-    show BookDetails;
-import 'package:flutter_tech_task/presentation/widgets/common_widgets/common_body.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
 import 'package:provider/provider.dart';
 

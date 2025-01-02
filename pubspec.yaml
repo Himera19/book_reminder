@@ -1,5 +1,5 @@
-name: flutter_tech_task
-description: Görev projesi.
+name: book_reminder
+description: Book reminder app.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
@@ -15,6 +15,7 @@ dependencies:
   flutter_local_notifications: ^17.2.2
   flutter_localizations:
     sdk: flutter
+  flutter_screenutil: ^5.9.3
   google_fonts: ^6.2.1
   google_nav_bar: ^5.0.6
   hive: ^2.0.4

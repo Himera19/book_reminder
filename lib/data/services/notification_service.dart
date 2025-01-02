@@ -1,9 +1,9 @@
 import 'dart:async';
 
+import 'package:book_reminder/models/book_model.dart';
+import 'package:book_reminder/pages/app_pages/book_detail_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:flutter_tech_task/models/book_model.dart';
-import 'package:flutter_tech_task/pages/app_pages/book_detail_page.dart';
 import 'package:hive/hive.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:timezone/timezone.dart' as tz;

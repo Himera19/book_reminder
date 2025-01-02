@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:flutter_tech_task/data/constants.dart';
-import 'package:flutter_tech_task/models/book_model.dart';
+import 'package:book_reminder/data/constants.dart';
+import 'package:book_reminder/models/book_model.dart';
 import 'package:hive/hive.dart';
 import 'package:http/http.dart' as http;
 

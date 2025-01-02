@@ -1,8 +1,8 @@
+import 'package:book_reminder/models/book_model.dart';
+import 'package:book_reminder/pages/app_pages/book_detail_page.dart';
+import 'package:book_reminder/presentation/widgets/common_widgets/common_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutter_tech_task/models/book_model.dart';
-import 'package:flutter_tech_task/pages/app_pages/book_detail_page.dart';
-import 'package:flutter_tech_task/presentation/widgets/common_widgets/common_text.dart';
 
 /// Kitap listesinin gösterilmesini sağlayan 'Widget' yapısı.
 

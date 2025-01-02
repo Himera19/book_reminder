@@ -1,7 +1,7 @@
 import 'dart:ui';
 
+import 'package:book_reminder/presentation/widgets/common_widgets/app_colors.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_tech_task/presentation/widgets/common_widgets/app_colors.dart';
 import 'package:hive/hive.dart';
 
 /// Aydınlık tema için [ThemeData] entegrasyonu.

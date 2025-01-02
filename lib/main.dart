@@ -1,13 +1,15 @@
+import 'package:book_reminder/data/services/notification_service.dart';
+import 'package:book_reminder/models/book_model.dart';
+import 'package:book_reminder/pages/navbar.dart';
+import 'package:book_reminder/presentation/providers/book_provider.dart';
+import 'package:book_reminder/presentation/providers/favorite_provider.dart';
+import 'package:book_reminder/presentation/providers/language_provider.dart';
+import 'package:book_reminder/presentation/providers/theme_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_tech_task/data/services/notification_service.dart';
-import 'package:flutter_tech_task/models/book_model.dart';
-import 'package:flutter_tech_task/pages/navbar.dart';
-import 'package:flutter_tech_task/presentation/providers/book_provider.dart';
-import 'package:flutter_tech_task/presentation/providers/favorite_provider.dart';
-import 'package:flutter_tech_task/presentation/providers/language_provider.dart';
-import 'package:flutter_tech_task/presentation/providers/theme_provider.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:provider/provider.dart';
 import 'package:timezone/data/latest.dart' as tz;
@@ -24,16 +26,22 @@ Future<void> main() async {
   await NotificationService().init();
 
   tz.initializeTimeZones();
-
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+  ]);
   runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => ThemeProvider(themeBox)),
-        ChangeNotifierProvider(create: (_) => BookProvider()),
-        ChangeNotifierProvider(create: (_) => LanguageProvider(languagesBox)),
-        ChangeNotifierProvider(create: (_) => FavoriteProvider(favoritesBox)),
-      ],
-      child: const MyApp(),
+    ScreenUtilInit(
+      designSize: const Size(390, 844),
+      minTextAdapt: true,
+      builder: (context, child) => MultiProvider(
+        providers: [
+          ChangeNotifierProvider(create: (_) => ThemeProvider(themeBox)),
+          ChangeNotifierProvider(create: (_) => BookProvider()),
+          ChangeNotifierProvider(create: (_) => LanguageProvider(languagesBox)),
+          ChangeNotifierProvider(create: (_) => FavoriteProvider(favoritesBox)),
+        ],
+        child: const MyApp(),
+      ),
     ),
   );
 }
@@ -61,7 +69,7 @@ class MyApp extends StatelessWidget {
             Locale('en', 'US'),
           ],
           locale: languageProvider.currentLocale,
-          title: 'Flutter Book Reminder',
+          title: 'Book Reminder',
           theme: context.watch<ThemeProvider>().darkTheme ? dark : light,
           home: const Navbar(),
         );

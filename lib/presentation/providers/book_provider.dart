@@ -1,7 +1,6 @@
+import 'package:book_reminder/data/repositories/book_repository.dart';
+import 'package:book_reminder/models/book_model.dart';
 import 'package:flutter/material.dart';
-
-import 'package:flutter_tech_task/data/repositories/book_repository.dart';
-import 'package:flutter_tech_task/models/book_model.dart';
 
 /// Kitapların listelenmesi, arama yapılması özellikleri için oluşturulan
 /// 'Provider' sınıfı.

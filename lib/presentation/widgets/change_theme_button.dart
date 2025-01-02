@@ -1,5 +1,5 @@
+import 'package:book_reminder/presentation/providers/theme_provider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_tech_task/presentation/providers/theme_provider.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
 import 'package:provider/provider.dart';
 

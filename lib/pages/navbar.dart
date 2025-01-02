@@ -1,9 +1,10 @@
 import 'package:animations/animations.dart';
+import 'package:book_reminder/pages/app_pages/book_list_page.dart';
+import 'package:book_reminder/pages/app_pages/favorites_page.dart';
+import 'package:book_reminder/presentation/widgets/common_widgets/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutter_tech_task/pages/app_pages/book_list_page.dart';
-import 'package:flutter_tech_task/pages/app_pages/favorites_page.dart';
-import 'package:flutter_tech_task/presentation/widgets/common_widgets/app_colors.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
 
@@ -53,7 +54,7 @@ class NavbarState extends State<Navbar> {
               ? darkColor.shade900
               : lightColor.shade50,
           iconSize: 35,
-          padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
+          padding: EdgeInsets.symmetric(horizontal: 50.w, vertical: 15.h),
           color: Theme.of(context).brightness == Brightness.light
               ? Colors.black54
               : Colors.grey.shade600,

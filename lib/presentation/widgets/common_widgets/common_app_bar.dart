@@ -1,7 +1,6 @@
+import 'package:book_reminder/presentation/widgets/common_widgets/app_colors.dart';
+import 'package:book_reminder/presentation/widgets/common_widgets/common_text.dart';
 import 'package:flutter/material.dart';
-
-import 'package:flutter_tech_task/presentation/widgets/common_widgets/app_colors.dart';
-import 'package:flutter_tech_task/presentation/widgets/common_widgets/common_text.dart';
 
 /// Uygulama sayfalarından ortak olarak çağırmak üzere hazırlanan AppBar.
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {

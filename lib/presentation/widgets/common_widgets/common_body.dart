@@ -1,7 +1,6 @@
+import 'package:book_reminder/presentation/widgets/common_widgets/app_colors.dart';
+import 'package:book_reminder/presentation/widgets/common_widgets/common_app_bar.dart';
 import 'package:flutter/material.dart';
-
-import 'package:flutter_tech_task/presentation/widgets/common_widgets/app_colors.dart';
-import 'package:flutter_tech_task/presentation/widgets/common_widgets/common_app_bar.dart';
 
 /// Uygulama sayfalarından ortak olarak çağırmak üzere hazırlanan Body.
 

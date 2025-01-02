@@ -1,5 +1,5 @@
+import 'package:book_reminder/models/book_model.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_tech_task/models/book_model.dart';
 import 'package:hive/hive.dart';
 
 /// Kullanıcının favori kitaplarını Hive ile lokalden çekebilmesi için

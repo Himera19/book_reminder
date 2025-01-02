@@ -1,5 +1,5 @@
+import 'package:book_reminder/presentation/providers/language_provider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_tech_task/presentation/providers/language_provider.dart';
 import 'package:provider/provider.dart';
 
 /// Dil değişimini sağlayan Widget.
