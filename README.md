@@ -19,6 +19,7 @@
 - **Language Support**: The app supports both English and Turkish languages.
 - **Responsive UI**: The app supports different screen sizes for mobile phones.
 - **Unit Testing**: The app includes tests for the API query system to ensure reliability.
+- **Very Good analysis**: So provides lint rules for Dart and Flutter which are used at Very Good Ventures.
 
 ## Key Dependencies
 
@@ -29,6 +30,7 @@
 - **Screen Util**: Supports different screen sizes for mobile phones.
 - **HTTP**: Sends API requests and processes the returned results.
 - **Mockito**: Used for testing API queries.
+- **Very Good analysis**: So provides lint rules for Dart and Flutter which are used at Very Good Ventures.
 
 ---
 
