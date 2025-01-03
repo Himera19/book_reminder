@@ -31,6 +31,7 @@
 - **HTTP**: Sends API requests and processes the returned results.
 - **Mockito**: Used for testing API queries.
 - **Very Good analysis**: So provides lint rules for Dart and Flutter which are used at Very Good Ventures.
+- **Note**: All comments in the code are written in Turkish.
 
 ---
 
@@ -40,12 +41,10 @@
 - **Flutter 3.24.3**
 
 ## Setup
-
 1. Run ```flutter gen-l10n``` for initialize localizations.
 2. Run ```flutter run``` for run app.
 
 ## Usage
-
 1. **API Access**: The app initially fetches book information from an API.
 2. **Local Storage**: Fetched books are saved to Hive boxes, allowing offline access.
 3. **Book Details**: Basic information of the selected book is displayed, and the user can add the book to their favorites.
