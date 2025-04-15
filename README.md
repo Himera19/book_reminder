@@ -4,7 +4,7 @@
 ## GIF Demo
 <img src="https://github.com/Himera19/book_reminder/blob/master/app_preview.gif" height="450">
  
-## Features
+## Usage
 - **Book Favoriting**: Users can add their desired books to their favorites.
 - **Book Filtering**: Users can search and find books easily.
 - **Daily Reminders**: Users can set daily reminders for their books.
