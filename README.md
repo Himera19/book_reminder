@@ -1,15 +1,10 @@
 # Book Reminder
-
 **A Book Favorites and Reminder Application Made With Flutter**
 
----
-
 ## GIF Demo
-
 <img src="https://github.com/Himera19/book_reminder/blob/master/app_preview.gif" height="450">
  
 ## Features
-
 - **Book Favoriting**: Users can add their desired books to their favorites.
 - **Book Filtering**: Users can search and find books easily.
 - **Daily Reminders**: Users can set daily reminders for their books.
@@ -22,7 +17,6 @@
 - **Very Good analysis**: So provides lint rules for Dart and Flutter which are used at Very Good Ventures.
 
 ## Key Dependencies
-
 - **Hive**: Stores book data and user preferences locally.
 - **Provider**: Maintains app integrity and manages state.
 - **Flutter Local Notification**: Provides notifications for reminders.
@@ -33,10 +27,7 @@
 - **Very Good analysis**: So provides lint rules for Dart and Flutter which are used at Very Good Ventures.
 - **Note**: All comments in the code are written in Turkish.
 
----
-
 ## Requirements
-
 - **Dart 3.5.3**
 - **Flutter 3.24.3**
 
@@ -44,17 +35,5 @@
 1. Run ```flutter gen-l10n``` for initialize localizations.
 2. Run ```flutter run``` for run app.
 
-## Usage
-1. **API Access**: The app initially fetches book information from an API.
-2. **Local Storage**: Fetched books are saved to Hive boxes, allowing offline access.
-3. **Book Details**: Basic information of the selected book is displayed, and the user can add the book to their favorites.
-4. **Favorites**: Users can view their favorite books locally.
-5. **Reminders**: Daily reminders can be set, and they are saved locally.
-6. **Theme and Language Selection**: Users can choose their preferred theme and language.
-7. **Filtering**: Users can search for the book they are looking for.
-
----
-
 ## License
-
 This project is licensed under the MIT License.
