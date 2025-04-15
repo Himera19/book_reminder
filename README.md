@@ -27,7 +27,7 @@
 - **Very Good analysis**: So provides lint rules for Dart and Flutter which are used at Very Good Ventures.
 - **Note**: All comments in the code are written in Turkish.
 
-## Requirements
+## Preferred Requirements
 - **Dart 3.5.3 or above.****
 - **Flutter 3.24.3 or above.****
 
