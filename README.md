@@ -28,8 +28,8 @@
 - **Note**: All comments in the code are written in Turkish.
 
 ## Preferred Requirements
-- **Dart 3.5.3 or above.****
-- **Flutter 3.24.3 or above.****
+- **Dart 3.5.3 or above.**
+- **Flutter 3.24.3 or above.**
 
 ## Setup
 1. Run ```flutter gen-l10n``` for initialize localizations.
